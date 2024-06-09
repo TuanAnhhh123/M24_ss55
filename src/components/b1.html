@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+    Bước 1: Tạo thư mục mock-api
+        cd mock-api 
+    Bước 2: Tạo thư mục server
+        cd server
+    Bước 3: Khởi tạo dự án Node.js
+        npm init -y
+    Bước 4: Cài đặt thư viện JSON Server
+        npm install json-server --save-dev
+    Bước 5: Tạo file JSON để làm cơ sở dữ liệu
+    Tạo một file tên là db.json trong thư mục server và thêm dữ liệu mẫu:
+        {
+            "posts": [
+                { "id": 1, "title": "Hello World" }
+            ],
+            "comments": [
+                { "id": 1, "body": "Some comment", "postId": 1 }
+            ],
+            "profile": { "name": "John Doe" }
+        }
+    Bước 6: Cấu hình script để chạy JSON Server
+    Mở file package.json và thêm script sau vào phần "scripts":
+        "scripts": {
+        "start": "json-server --watch db.json --port 3000"
+        }    
+    Toàn bộ file package.json sẽ trông như sau:
+        {
+            "name": "server",
+            "version": "1.0.0",
+            "description": "",
+            "main": "index.js",
+            "scripts": {
+            "start": "json-server --watch db.json --port 3000"
+            },
+            "author": "",
+            "license": "ISC",
+            "devDependencies": {
+            "json-server": "^0.17.0"
+            }
+        }  
+    Bước 7: Chạy dự án
+        npm start
+    JSON Server sẽ chạy tại http://localhost:3000. Ví dụ:
+        http://localhost:3000/posts
+        http://localhost:3000/comments
+        http://localhost:3000/profile
+    -->
+  </body>
+</html>

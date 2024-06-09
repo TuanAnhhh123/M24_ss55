@@ -1,0 +1,61 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "hoa",
+      "adress": "hà nội"
+    },
+    {
+      "id": 2,
+      "name": "hoàng",
+      "adress": "hà nam"
+    },
+    {
+      "id": 3,
+      "name": "hùng",
+      "adress": "hcm"
+    }
+  ],
+  "products": [],
+  "comment": [],
+ "posts": [
+    {
+      "id": 1,
+      "title": "Bài viết đầu tiên",
+      "content": "Nội dung của bài viết đầu tiên",
+      "thumbnail": "https://i.pinimg.com/736x/56/86/03/568603cbd1860c67bf8f6776cbe7f885.jpg",
+      "created_at": "2023-06-01T08:30:00Z",
+      "created_by": "Người viết 1",
+      "comments": [
+        {
+          "id": 1,
+          "content": "Bình luận đầu tiên",
+          "created_at": "2023-06-01T09:00:00Z",
+          "created_by": "Người bình luận 1"
+        },
+        {
+          "id": 2,
+          "content": "Bình luận thứ hai",
+          "created_at": "2023-06-01T09:30:00Z",
+          "created_by": "Người bình luận 2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bài viết thứ hai",
+      "content": "Nội dung của bài viết thứ hai",
+      "thumbnail": "https://i.pinimg.com/736x/56/86/03/568603cbd1860c67bf8f6776cbe7f885.jpg",
+      "created_at": "2023-06-02T10:00:00Z",
+      "created_by": "Người viết 2",
+      "comments": [
+        {
+          "id": 3,
+          "content": "Bình luận thứ ba",
+          "created_at": "2023-06-02T10:30:00Z",
+          "created_by": "Người bình luận 3"
+        }
+      ]
+    }
+  ]
+}
